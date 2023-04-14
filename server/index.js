@@ -17,7 +17,7 @@ const instance = new Razorpay({
 const connectDB = async () => {
   const connect = await mongoose.connect(process.env.MONGODB_URI);
   if (connect) {
-    console.log("MongoDB is Connected...👋");
+    console.log("MongoDB is Connected...🪙");
   }
 };
 connectDB();
